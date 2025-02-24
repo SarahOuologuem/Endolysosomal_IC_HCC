@@ -1,0 +1,54 @@
+[2025-01-25 20:17:10,843] multiqc                                            [DEBUG  ]  No MultiQC config found: /dss/dsshome1/05/ru62tig2/miniconda3/envs/multiqc/lib/python2.7/site-packages/multiqc-1.0.dev0-py2.7.egg/multiqc_config.yaml
+[2025-01-25 20:17:10,843] multiqc                                            [DEBUG  ]  No MultiQC config found: /dss/dsshome1/05/ru62tig2/.multiqc_config.yaml
+[2025-01-25 20:17:10,843] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2025-01-25 20:17:10,844] multiqc                                            [DEBUG  ]  Command used: /dss/dsshome1/05/ru62tig2/miniconda3/envs/multiqc/bin/multiqc /dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs -o /dss/dsshome1/05/ru62tig2/0.Quality_Control/2.MultiQC/outputs
+[2025-01-25 20:17:10,844] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check
+[2025-01-25 20:17:10,844] multiqc                                            [INFO   ]  This is MultiQC v1.0.dev0
+[2025-01-25 20:17:10,844] multiqc                                            [DEBUG  ]  Command     : /dss/dsshome1/05/ru62tig2/miniconda3/envs/multiqc/bin/multiqc /dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs -o /dss/dsshome1/05/ru62tig2/0.Quality_Control/2.MultiQC/outputs
+[2025-01-25 20:17:10,844] multiqc                                            [DEBUG  ]  Working dir : /dss/dsshome1/05/ru62tig2/0.Quality_Control/2.MultiQC
+[2025-01-25 20:17:10,844] multiqc                                            [INFO   ]  Template    : default
+[2025-01-25 20:17:10,845] multiqc                                            [INFO   ]  Searching '/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs'
+[2025-01-25 20:17:10,845] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, peddy, methylQA, qualimap, preseq, quast, rseqc, busco, goleft_indexcov, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, bismark, hicup, salmon, kallisto, slamdunk, star, tophat, bowtie2, bowtie1, cutadapt, trimmomatic, skewer, fastq_screen, fastqc, clusterflow
+[2025-01-25 20:17:10,846] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /dss/lxclscratch/05/ru62tig2/ru62tig2/tmpgNqOng
+[2025-01-25 20:17:17,373] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2025-01-25 20:17:17,394] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:17,406] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:17,421] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2025-01-25 20:17:17,439] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:20,007] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:20,029] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:20,521] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:20,534] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:20,548] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:20,687] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:20,820] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:20,931] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:21,045] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:21,056] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:22,134] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:22,151] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:22,263] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:22,589] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:22,704] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:22,729] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:22,742] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:22,756] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:22,867] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:23,499] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2025-01-25 20:17:23,514] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:23,525] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:23,636] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:23,746] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:23,857] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:23,968] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:24,077] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:24,090] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:37,898] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 50 reports
+[2025-01-25 20:17:42,471] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs',)
+[2025-01-25 20:17:42,476] multiqc                                            [INFO   ]  Report      : outputs/multiqc_report.html
+[2025-01-25 20:17:42,482] multiqc                                            [INFO   ]  Data        : outputs/multiqc_data
+[2025-01-25 20:17:42,482] multiqc                                            [DEBUG  ]  Moving data file from '/dss/lxclscratch/05/ru62tig2/ru62tig2/tmpgNqOng/multiqc_data/multiqc_fastqc.txt' to '/dss/dsshome1/05/ru62tig2/0.Quality_Control/2.MultiQC/outputs/multiqc_data'
+[2025-01-25 20:17:42,484] multiqc                                            [DEBUG  ]  Moving data file from '/dss/lxclscratch/05/ru62tig2/ru62tig2/tmpgNqOng/multiqc_data/multiqc_general_stats.txt' to '/dss/dsshome1/05/ru62tig2/0.Quality_Control/2.MultiQC/outputs/multiqc_data'
+[2025-01-25 20:17:42,485] multiqc                                            [DEBUG  ]  Moving data file from '/dss/lxclscratch/05/ru62tig2/ru62tig2/tmpgNqOng/multiqc_data/mqc_fastqc_adapter_content_plot_1.txt' to '/dss/dsshome1/05/ru62tig2/0.Quality_Control/2.MultiQC/outputs/multiqc_data'
+[2025-01-25 20:17:42,486] multiqc                                            [DEBUG  ]  Moving data file from '/dss/lxclscratch/05/ru62tig2/ru62tig2/tmpgNqOng/multiqc_data/multiqc_sources.txt' to '/dss/dsshome1/05/ru62tig2/0.Quality_Control/2.MultiQC/outputs/multiqc_data'
+[2025-01-25 20:17:42,785] multiqc                                            [INFO   ]  MultiQC complete

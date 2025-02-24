@@ -1,0 +1,12 @@
+Job started on Sat Jan 25 08:17:09 PM CET 2025
+/dss/dsshome1/05/ru62tig2/miniconda3/envs/multiqc/lib/python2.7/site-packages/multiqc-1.0.dev0-py2.7.egg/multiqc/utils/config.py:44: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  configs = yaml.load(f)
+/dss/dsshome1/05/ru62tig2/miniconda3/envs/multiqc/lib/python2.7/site-packages/multiqc-1.0.dev0-py2.7.egg/multiqc/utils/config.py:50: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  sp = yaml.load(f)
+[INFO   ]         multiqc : This is MultiQC v1.0.dev0
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '/dss/dsshome1/05/ru62tig2/0.Quality_Control/1.FastQC/outputs'
+[INFO   ]          fastqc : Found 50 reports
+[INFO   ]         multiqc : Report      : outputs/multiqc_report.html
+[INFO   ]         multiqc : Data        : outputs/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
