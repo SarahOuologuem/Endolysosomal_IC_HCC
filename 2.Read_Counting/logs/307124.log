@@ -1,0 +1,690 @@
+Job started on Thu Feb 13 11:42:31 AM CET 2025
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_dKO_1_Aligned.out.sam                      ||
+||                                                                            ||
+||             Output file : RIL_dKO_1_Aligned.out.txt                        ||
+||                 Summary : RIL_dKO_1_Aligned.out.txt.summary                ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_dKO_1_Aligned.out.sam...                              ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 44015862                                             ||
+||    Successfully assigned alignments : 35436582 (80.5%)                     ||
+||    Running time : 0.72 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_dKO_1_Aligne  ||
+|| d.out.txt.summary"                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_dKO_2_Aligned.out.sam                      ||
+||                                                                            ||
+||             Output file : RIL_dKO_2_Aligned.out.txt                        ||
+||                 Summary : RIL_dKO_2_Aligned.out.txt.summary                ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_dKO_2_Aligned.out.sam...                              ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 31454816                                             ||
+||    Successfully assigned alignments : 25661795 (81.6%)                     ||
+||    Running time : 0.87 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_dKO_2_Aligne  ||
+|| d.out.txt.summary"                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_dKO_3_Aligned.out.sam                      ||
+||                                                                            ||
+||             Output file : RIL_dKO_3_Aligned.out.txt                        ||
+||                 Summary : RIL_dKO_3_Aligned.out.txt.summary                ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_dKO_3_Aligned.out.sam...                              ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 36139898                                             ||
+||    Successfully assigned alignments : 29471870 (81.5%)                     ||
+||    Running time : 1.20 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_dKO_3_Aligne  ||
+|| d.out.txt.summary"                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_M_1_L1_Aligned.out.sam                     ||
+||                                                                            ||
+||             Output file : RIL_M_1_L1_Aligned.out.txt                       ||
+||                 Summary : RIL_M_1_L1_Aligned.out.txt.summary               ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_M_1_L1_Aligned.out.sam...                             ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 20467287                                             ||
+||    Successfully assigned alignments : 16919156 (82.7%)                     ||
+||    Running time : 0.34 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_M_1_L1_Align  ||
+|| ed.out.txt.summary"                                                        ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_M_1_L7_Aligned.out.sam                     ||
+||                                                                            ||
+||             Output file : RIL_M_1_L7_Aligned.out.txt                       ||
+||                 Summary : RIL_M_1_L7_Aligned.out.txt.summary               ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_M_1_L7_Aligned.out.sam...                             ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 17142472                                             ||
+||    Successfully assigned alignments : 14094628 (82.2%)                     ||
+||    Running time : 0.27 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_M_1_L7_Align  ||
+|| ed.out.txt.summary"                                                        ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_M_2_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : RIL_M_2_Aligned.out.txt                          ||
+||                 Summary : RIL_M_2_Aligned.out.txt.summary                  ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_M_2_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 32097283                                             ||
+||    Successfully assigned alignments : 26650913 (83.0%)                     ||
+||    Running time : 0.82 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_M_2_Aligned.  ||
+|| out.txt.summary"                                                           ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_M_3_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : RIL_M_3_Aligned.out.txt                          ||
+||                 Summary : RIL_M_3_Aligned.out.txt.summary                  ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_M_3_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 29339850                                             ||
+||    Successfully assigned alignments : 24384702 (83.1%)                     ||
+||    Running time : 0.85 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_M_3_Aligned.  ||
+|| out.txt.summary"                                                           ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_T_1_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : RIL_T_1_Aligned.out.txt                          ||
+||                 Summary : RIL_T_1_Aligned.out.txt.summary                  ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_T_1_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 35409668                                             ||
+||    Successfully assigned alignments : 28631858 (80.9%)                     ||
+||    Running time : 0.81 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_T_1_Aligned.  ||
+|| out.txt.summary"                                                           ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_T_2_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : RIL_T_2_Aligned.out.txt                          ||
+||                 Summary : RIL_T_2_Aligned.out.txt.summary                  ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_T_2_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 42960455                                             ||
+||    Successfully assigned alignments : 34914183 (81.3%)                     ||
+||    Running time : 0.67 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_T_2_Aligned.  ||
+|| out.txt.summary"                                                           ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_T_3_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : RIL_T_3_Aligned.out.txt                          ||
+||                 Summary : RIL_T_3_Aligned.out.txt.summary                  ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_T_3_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 37379763                                             ||
+||    Successfully assigned alignments : 30582642 (81.8%)                     ||
+||    Running time : 0.63 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_T_3_Aligned.  ||
+|| out.txt.summary"                                                           ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_WT_1_Aligned.out.sam                       ||
+||                                                                            ||
+||             Output file : RIL_WT_1_Aligned.out.txt                         ||
+||                 Summary : RIL_WT_1_Aligned.out.txt.summary                 ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_WT_1_Aligned.out.sam...                               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 38997072                                             ||
+||    Successfully assigned alignments : 30706678 (78.7%)                     ||
+||    Running time : 1.53 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_WT_1_Aligned  ||
+|| .out.txt.summary"                                                          ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_WT_2_Aligned.out.sam                       ||
+||                                                                            ||
+||             Output file : RIL_WT_2_Aligned.out.txt                         ||
+||                 Summary : RIL_WT_2_Aligned.out.txt.summary                 ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_WT_2_Aligned.out.sam...                               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 35653435                                             ||
+||    Successfully assigned alignments : 29383296 (82.4%)                     ||
+||    Running time : 1.11 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_WT_2_Aligned  ||
+|| .out.txt.summary"                                                          ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o RIL_WT_3_Aligned.out.sam                       ||
+||                                                                            ||
+||             Output file : RIL_WT_3_Aligned.out.txt                         ||
+||                 Summary : RIL_WT_3_Aligned.out.txt.summary                 ||
+||              Annotation : Mus_musculus.GRCm39.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Mus_musculus.GRCm39.113.gtf ...                       ||
+||    Features : 1298756                                                      ||
+||    Meta-features : 78298                                                   ||
+||    Chromosomes/contigs : 38                                                ||
+||                                                                            ||
+|| Process SAM file RIL_WT_3_Aligned.out.sam...                               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 42736084                                             ||
+||    Successfully assigned alignments : 35050371 (82.0%)                     ||
+||    Running time : 0.65 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/mouse/./RIL_WT_3_Aligned  ||
+|| .out.txt.summary"                                                          ||
+||                                                                            ||
+\\============================================================================//
+

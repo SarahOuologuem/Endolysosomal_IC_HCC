@@ -1,0 +1,637 @@
+Job started on Fri Feb  7 10:58:54 AM CET 2025
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_dKO_1_Aligned.out.sam                      ||
+||                                                                            ||
+||             Output file : H3B_dKO_1_Aligned.out.txt                        ||
+||                 Summary : H3B_dKO_1_Aligned.out.txt.summary                ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_dKO_1_Aligned.out.sam...                              ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 36731866                                             ||
+||    Successfully assigned alignments : 26969898 (73.4%)                     ||
+||    Running time : 0.37 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_dKO_1_Alig  ||
+|| ned.out.txt.summary"                                                       ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_dKO_2_Aligned.out.sam                      ||
+||                                                                            ||
+||             Output file : H3B_dKO_2_Aligned.out.txt                        ||
+||                 Summary : H3B_dKO_2_Aligned.out.txt.summary                ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_dKO_2_Aligned.out.sam...                              ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 44009287                                             ||
+||    Successfully assigned alignments : 32625392 (74.1%)                     ||
+||    Running time : 0.44 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_dKO_2_Alig  ||
+|| ned.out.txt.summary"                                                       ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_dKO_3_Aligned.out.sam                      ||
+||                                                                            ||
+||             Output file : H3B_dKO_3_Aligned.out.txt                        ||
+||                 Summary : H3B_dKO_3_Aligned.out.txt.summary                ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_dKO_3_Aligned.out.sam...                              ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 35465557                                             ||
+||    Successfully assigned alignments : 26720210 (75.3%)                     ||
+||    Running time : 0.36 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_dKO_3_Alig  ||
+|| ned.out.txt.summary"                                                       ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_M_1_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : H3B_M_1_Aligned.out.txt                          ||
+||                 Summary : H3B_M_1_Aligned.out.txt.summary                  ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_M_1_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 55978049                                             ||
+||    Successfully assigned alignments : 41952842 (74.9%)                     ||
+||    Running time : 0.56 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_M_1_Aligne  ||
+|| d.out.txt.summary"                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_M_2_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : H3B_M_2_Aligned.out.txt                          ||
+||                 Summary : H3B_M_2_Aligned.out.txt.summary                  ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_M_2_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 46811882                                             ||
+||    Successfully assigned alignments : 35477960 (75.8%)                     ||
+||    Running time : 0.48 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_M_2_Aligne  ||
+|| d.out.txt.summary"                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_M_3_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : H3B_M_3_Aligned.out.txt                          ||
+||                 Summary : H3B_M_3_Aligned.out.txt.summary                  ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_M_3_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 40782063                                             ||
+||    Successfully assigned alignments : 31565307 (77.4%)                     ||
+||    Running time : 0.42 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_M_3_Aligne  ||
+|| d.out.txt.summary"                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_T_1_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : H3B_T_1_Aligned.out.txt                          ||
+||                 Summary : H3B_T_1_Aligned.out.txt.summary                  ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_T_1_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 44162505                                             ||
+||    Successfully assigned alignments : 33141291 (75.0%)                     ||
+||    Running time : 0.45 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_T_1_Aligne  ||
+|| d.out.txt.summary"                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_T_2_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : H3B_T_2_Aligned.out.txt                          ||
+||                 Summary : H3B_T_2_Aligned.out.txt.summary                  ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_T_2_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 32541056                                             ||
+||    Successfully assigned alignments : 24915472 (76.6%)                     ||
+||    Running time : 0.33 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_T_2_Aligne  ||
+|| d.out.txt.summary"                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_T_3_Aligned.out.sam                        ||
+||                                                                            ||
+||             Output file : H3B_T_3_Aligned.out.txt                          ||
+||                 Summary : H3B_T_3_Aligned.out.txt.summary                  ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_T_3_Aligned.out.sam...                                ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 32784505                                             ||
+||    Successfully assigned alignments : 24209309 (73.8%)                     ||
+||    Running time : 0.33 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_T_3_Aligne  ||
+|| d.out.txt.summary"                                                         ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_WT_1_Aligned.out.sam                       ||
+||                                                                            ||
+||             Output file : H3B_WT_1_Aligned.out.txt                         ||
+||                 Summary : H3B_WT_1_Aligned.out.txt.summary                 ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_WT_1_Aligned.out.sam...                               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 33235400                                             ||
+||    Successfully assigned alignments : 25544385 (76.9%)                     ||
+||    Running time : 0.34 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_WT_1_Align  ||
+|| ed.out.txt.summary"                                                        ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_WT_2_Aligned.out.sam                       ||
+||                                                                            ||
+||             Output file : H3B_WT_2_Aligned.out.txt                         ||
+||                 Summary : H3B_WT_2_Aligned.out.txt.summary                 ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_WT_2_Aligned.out.sam...                               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 41734681                                             ||
+||    Successfully assigned alignments : 31468430 (75.4%)                     ||
+||    Running time : 0.42 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_WT_2_Align  ||
+|| ed.out.txt.summary"                                                        ||
+||                                                                            ||
+\\============================================================================//
+
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.0.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                           o H3B_WT_3_Aligned.out.sam                       ||
+||                                                                            ||
+||             Output file : H3B_WT_3_Aligned.out.txt                         ||
+||                 Summary : H3B_WT_3_Aligned.out.txt.summary                 ||
+||              Annotation : Homo_sapiens.GRCh38.113.gtf (GTF)                ||
+||      Dir for temp files : /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-00 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : yes                                              ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+||          Chimeric reads : counted                                          ||
+||        Both ends mapped : not required                                     ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.113.gtf ...                       ||
+||    Features : 2164410                                                      ||
+||    Meta-features : 78932                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file H3B_WT_3_Aligned.out.sam...                               ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 37854663                                             ||
+||    Successfully assigned alignments : 28710554 (75.8%)                     ||
+||    Running time : 0.38 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/dss/dssfs02/lwp-dss-00  ||
+|| 01/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/results/./H3B_WT_3_Align  ||
+|| ed.out.txt.summary"                                                        ||
+||                                                                            ||
+\\============================================================================//
+
