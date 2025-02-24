@@ -1,0 +1,530 @@
+STAR version=2.7.10b
+STAR compilation time,server,dir=2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+STAR git: On branch master ; commit c6f8efc2c7043ef83bf8b0d9bed36bbb6b9b1133 ; diff files: CHANGES.md 
+##### Command Line:
+STAR --runThreadN 18 --runMode genomeGenerate --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --genomeFastaFiles /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa --sjdbGTFfile /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.113.gtf --sjdbOverhang 149
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    18     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index     ~RE-DEFINED
+genomeFastaFiles              /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa        ~RE-DEFINED
+sjdbGTFfile                   /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.113.gtf     ~RE-DEFINED
+sjdbOverhang                  149     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        18
+genomeDir                         /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index
+genomeFastaFiles                  /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa   
+sjdbGTFfile                       /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.113.gtf
+sjdbOverhang                      149
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode genomeGenerate      --runThreadN 18   --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index   --genomeFastaFiles /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa      --sjdbGTFfile /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.113.gtf   --sjdbOverhang 149
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index/
+!!!!! WARNING: Could not move Log.out file from ./Log.out into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index/Log.out. Will keep ./Log.out
+
+Feb 02 11:09:46 ... starting to generate Genome files
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 0  "1" chrStart: 0
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 1  "10" chrStart: 249036800
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 2  "11" chrStart: 382992384
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 3  "12" chrStart: 518258688
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 4  "13" chrStart: 651689984
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 5  "14" chrStart: 766246912
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 6  "15" chrStart: 873463808
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 7  "16" chrStart: 975699968
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 8  "17" chrStart: 1066139648
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 9  "18" chrStart: 1149501440
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 10  "19" chrStart: 1229979648
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 11  "2" chrStart: 1288699904
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 12  "20" chrStart: 1530920960
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 13  "21" chrStart: 1595408384
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 14  "22" chrStart: 1642332160
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 15  "3" chrStart: 1693188096
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 16  "4" chrStart: 1891631104
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 17  "5" chrStart: 2081947648
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 18  "6" chrStart: 2263613440
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 19  "7" chrStart: 2434531328
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 20  "8" chrStart: 2593914880
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 21  "9" chrStart: 2739142656
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 22  "MT" chrStart: 2877554688
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 23  "X" chrStart: 2877816832
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 24  "Y" chrStart: 3034054656
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 25  "KI270728.1" chrStart: 3091464192
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 26  "KI270727.1" chrStart: 3093561344
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 27  "KI270442.1" chrStart: 3094085632
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 28  "KI270729.1" chrStart: 3094609920
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 29  "GL000225.1" chrStart: 3095134208
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 30  "KI270743.1" chrStart: 3095396352
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 31  "GL000008.2" chrStart: 3095658496
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 32  "GL000009.2" chrStart: 3095920640
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 33  "KI270747.1" chrStart: 3096182784
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 34  "KI270722.1" chrStart: 3096444928
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 35  "GL000194.1" chrStart: 3096707072
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 36  "KI270742.1" chrStart: 3096969216
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 37  "GL000205.2" chrStart: 3097231360
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 38  "GL000195.1" chrStart: 3097493504
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 39  "KI270736.1" chrStart: 3097755648
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 40  "KI270733.1" chrStart: 3098017792
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 41  "GL000224.1" chrStart: 3098279936
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 42  "GL000219.1" chrStart: 3098542080
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 43  "KI270719.1" chrStart: 3098804224
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 44  "GL000216.2" chrStart: 3099066368
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 45  "KI270712.1" chrStart: 3099328512
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 46  "KI270706.1" chrStart: 3099590656
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 47  "KI270725.1" chrStart: 3099852800
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 48  "KI270744.1" chrStart: 3100114944
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 49  "KI270734.1" chrStart: 3100377088
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 50  "GL000213.1" chrStart: 3100639232
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 51  "GL000220.1" chrStart: 3100901376
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 52  "KI270715.1" chrStart: 3101163520
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 53  "GL000218.1" chrStart: 3101425664
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 54  "KI270749.1" chrStart: 3101687808
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 55  "KI270741.1" chrStart: 3101949952
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 56  "GL000221.1" chrStart: 3102212096
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 57  "KI270716.1" chrStart: 3102474240
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 58  "KI270731.1" chrStart: 3102736384
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 59  "KI270751.1" chrStart: 3102998528
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 60  "KI270750.1" chrStart: 3103260672
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 61  "KI270519.1" chrStart: 3103522816
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 62  "GL000214.1" chrStart: 3103784960
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 63  "KI270708.1" chrStart: 3104047104
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 64  "KI270730.1" chrStart: 3104309248
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 65  "KI270438.1" chrStart: 3104571392
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 66  "KI270737.1" chrStart: 3104833536
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 67  "KI270721.1" chrStart: 3105095680
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 68  "KI270738.1" chrStart: 3105357824
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 69  "KI270748.1" chrStart: 3105619968
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 70  "KI270435.1" chrStart: 3105882112
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 71  "GL000208.1" chrStart: 3106144256
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 72  "KI270538.1" chrStart: 3106406400
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 73  "KI270756.1" chrStart: 3106668544
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 74  "KI270739.1" chrStart: 3106930688
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 75  "KI270757.1" chrStart: 3107192832
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 76  "KI270709.1" chrStart: 3107454976
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 77  "KI270746.1" chrStart: 3107717120
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 78  "KI270753.1" chrStart: 3107979264
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 79  "KI270589.1" chrStart: 3108241408
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 80  "KI270726.1" chrStart: 3108503552
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 81  "KI270735.1" chrStart: 3108765696
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 82  "KI270711.1" chrStart: 3109027840
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 83  "KI270745.1" chrStart: 3109289984
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 84  "KI270714.1" chrStart: 3109552128
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 85  "KI270732.1" chrStart: 3109814272
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 86  "KI270713.1" chrStart: 3110076416
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 87  "KI270754.1" chrStart: 3110338560
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 88  "KI270710.1" chrStart: 3110600704
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 89  "KI270717.1" chrStart: 3110862848
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 90  "KI270724.1" chrStart: 3111124992
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 91  "KI270720.1" chrStart: 3111387136
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 92  "KI270723.1" chrStart: 3111649280
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 93  "KI270718.1" chrStart: 3111911424
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 94  "KI270317.1" chrStart: 3112173568
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 95  "KI270740.1" chrStart: 3112435712
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 96  "KI270755.1" chrStart: 3112697856
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 97  "KI270707.1" chrStart: 3112960000
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 98  "KI270579.1" chrStart: 3113222144
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 99  "KI270752.1" chrStart: 3113484288
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 100  "KI270512.1" chrStart: 3113746432
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 101  "KI270322.1" chrStart: 3114008576
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 102  "GL000226.1" chrStart: 3114270720
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 103  "KI270311.1" chrStart: 3114532864
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 104  "KI270366.1" chrStart: 3114795008
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 105  "KI270511.1" chrStart: 3115057152
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 106  "KI270448.1" chrStart: 3115319296
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 107  "KI270521.1" chrStart: 3115581440
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 108  "KI270581.1" chrStart: 3115843584
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 109  "KI270582.1" chrStart: 3116105728
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 110  "KI270515.1" chrStart: 3116367872
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 111  "KI270588.1" chrStart: 3116630016
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 112  "KI270591.1" chrStart: 3116892160
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 113  "KI270522.1" chrStart: 3117154304
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 114  "KI270507.1" chrStart: 3117416448
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 115  "KI270590.1" chrStart: 3117678592
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 116  "KI270584.1" chrStart: 3117940736
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 117  "KI270320.1" chrStart: 3118202880
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 118  "KI270382.1" chrStart: 3118465024
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 119  "KI270468.1" chrStart: 3118727168
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 120  "KI270467.1" chrStart: 3118989312
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 121  "KI270362.1" chrStart: 3119251456
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 122  "KI270517.1" chrStart: 3119513600
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 123  "KI270593.1" chrStart: 3119775744
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 124  "KI270528.1" chrStart: 3120037888
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 125  "KI270587.1" chrStart: 3120300032
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 126  "KI270364.1" chrStart: 3120562176
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 127  "KI270371.1" chrStart: 3120824320
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 128  "KI270333.1" chrStart: 3121086464
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 129  "KI270374.1" chrStart: 3121348608
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 130  "KI270411.1" chrStart: 3121610752
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 131  "KI270414.1" chrStart: 3121872896
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 132  "KI270510.1" chrStart: 3122135040
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 133  "KI270390.1" chrStart: 3122397184
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 134  "KI270375.1" chrStart: 3122659328
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 135  "KI270420.1" chrStart: 3122921472
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 136  "KI270509.1" chrStart: 3123183616
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 137  "KI270315.1" chrStart: 3123445760
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 138  "KI270302.1" chrStart: 3123707904
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 139  "KI270518.1" chrStart: 3123970048
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 140  "KI270530.1" chrStart: 3124232192
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 141  "KI270304.1" chrStart: 3124494336
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 142  "KI270418.1" chrStart: 3124756480
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 143  "KI270424.1" chrStart: 3125018624
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 144  "KI270417.1" chrStart: 3125280768
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 145  "KI270508.1" chrStart: 3125542912
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 146  "KI270303.1" chrStart: 3125805056
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 147  "KI270381.1" chrStart: 3126067200
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 148  "KI270529.1" chrStart: 3126329344
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 149  "KI270425.1" chrStart: 3126591488
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 150  "KI270396.1" chrStart: 3126853632
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 151  "KI270363.1" chrStart: 3127115776
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 152  "KI270386.1" chrStart: 3127377920
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 153  "KI270465.1" chrStart: 3127640064
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 154  "KI270383.1" chrStart: 3127902208
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 155  "KI270384.1" chrStart: 3128164352
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 156  "KI270330.1" chrStart: 3128426496
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 157  "KI270372.1" chrStart: 3128688640
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 158  "KI270548.1" chrStart: 3128950784
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 159  "KI270580.1" chrStart: 3129212928
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 160  "KI270387.1" chrStart: 3129475072
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 161  "KI270391.1" chrStart: 3129737216
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 162  "KI270305.1" chrStart: 3129999360
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 163  "KI270373.1" chrStart: 3130261504
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 164  "KI270422.1" chrStart: 3130523648
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 165  "KI270316.1" chrStart: 3130785792
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 166  "KI270340.1" chrStart: 3131047936
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 167  "KI270338.1" chrStart: 3131310080
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 168  "KI270583.1" chrStart: 3131572224
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 169  "KI270334.1" chrStart: 3131834368
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 170  "KI270429.1" chrStart: 3132096512
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 171  "KI270393.1" chrStart: 3132358656
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 172  "KI270516.1" chrStart: 3132620800
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 173  "KI270389.1" chrStart: 3132882944
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 174  "KI270466.1" chrStart: 3133145088
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 175  "KI270388.1" chrStart: 3133407232
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 176  "KI270544.1" chrStart: 3133669376
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 177  "KI270310.1" chrStart: 3133931520
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 178  "KI270412.1" chrStart: 3134193664
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 179  "KI270395.1" chrStart: 3134455808
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 180  "KI270376.1" chrStart: 3134717952
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 181  "KI270337.1" chrStart: 3134980096
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 182  "KI270335.1" chrStart: 3135242240
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 183  "KI270378.1" chrStart: 3135504384
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 184  "KI270379.1" chrStart: 3135766528
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 185  "KI270329.1" chrStart: 3136028672
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 186  "KI270419.1" chrStart: 3136290816
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 187  "KI270336.1" chrStart: 3136552960
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 188  "KI270312.1" chrStart: 3136815104
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 189  "KI270539.1" chrStart: 3137077248
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 190  "KI270385.1" chrStart: 3137339392
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 191  "KI270423.1" chrStart: 3137601536
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 192  "KI270392.1" chrStart: 3137863680
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.dna.primary_assembly.fa : chr # 193  "KI270394.1" chrStart: 3138125824
+Chromosome sequence lengths: 
+1	248956422
+10	133797422
+11	135086622
+12	133275309
+13	114364328
+14	107043718
+15	101991189
+16	90338345
+17	83257441
+18	80373285
+19	58617616
+2	242193529
+20	64444167
+21	46709983
+22	50818468
+3	198295559
+4	190214555
+5	181538259
+6	170805979
+7	159345973
+8	145138636
+9	138394717
+MT	16569
+X	156040895
+Y	57227415
+KI270728.1	1872759
+KI270727.1	448248
+KI270442.1	392061
+KI270729.1	280839
+GL000225.1	211173
+KI270743.1	210658
+GL000008.2	209709
+GL000009.2	201709
+KI270747.1	198735
+KI270722.1	194050
+GL000194.1	191469
+KI270742.1	186739
+GL000205.2	185591
+GL000195.1	182896
+KI270736.1	181920
+KI270733.1	179772
+GL000224.1	179693
+GL000219.1	179198
+KI270719.1	176845
+GL000216.2	176608
+KI270712.1	176043
+KI270706.1	175055
+KI270725.1	172810
+KI270744.1	168472
+KI270734.1	165050
+GL000213.1	164239
+GL000220.1	161802
+KI270715.1	161471
+GL000218.1	161147
+KI270749.1	158759
+KI270741.1	157432
+GL000221.1	155397
+KI270716.1	153799
+KI270731.1	150754
+KI270751.1	150742
+KI270750.1	148850
+KI270519.1	138126
+GL000214.1	137718
+KI270708.1	127682
+KI270730.1	112551
+KI270438.1	112505
+KI270737.1	103838
+KI270721.1	100316
+KI270738.1	99375
+KI270748.1	93321
+KI270435.1	92983
+GL000208.1	92689
+KI270538.1	91309
+KI270756.1	79590
+KI270739.1	73985
+KI270757.1	71251
+KI270709.1	66860
+KI270746.1	66486
+KI270753.1	62944
+KI270589.1	44474
+KI270726.1	43739
+KI270735.1	42811
+KI270711.1	42210
+KI270745.1	41891
+KI270714.1	41717
+KI270732.1	41543
+KI270713.1	40745
+KI270754.1	40191
+KI270710.1	40176
+KI270717.1	40062
+KI270724.1	39555
+KI270720.1	39050
+KI270723.1	38115
+KI270718.1	38054
+KI270317.1	37690
+KI270740.1	37240
+KI270755.1	36723
+KI270707.1	32032
+KI270579.1	31033
+KI270752.1	27745
+KI270512.1	22689
+KI270322.1	21476
+GL000226.1	15008
+KI270311.1	12399
+KI270366.1	8320
+KI270511.1	8127
+KI270448.1	7992
+KI270521.1	7642
+KI270581.1	7046
+KI270582.1	6504
+KI270515.1	6361
+KI270588.1	6158
+KI270591.1	5796
+KI270522.1	5674
+KI270507.1	5353
+KI270590.1	4685
+KI270584.1	4513
+KI270320.1	4416
+KI270382.1	4215
+KI270468.1	4055
+KI270467.1	3920
+KI270362.1	3530
+KI270517.1	3253
+KI270593.1	3041
+KI270528.1	2983
+KI270587.1	2969
+KI270364.1	2855
+KI270371.1	2805
+KI270333.1	2699
+KI270374.1	2656
+KI270411.1	2646
+KI270414.1	2489
+KI270510.1	2415
+KI270390.1	2387
+KI270375.1	2378
+KI270420.1	2321
+KI270509.1	2318
+KI270315.1	2276
+KI270302.1	2274
+KI270518.1	2186
+KI270530.1	2168
+KI270304.1	2165
+KI270418.1	2145
+KI270424.1	2140
+KI270417.1	2043
+KI270508.1	1951
+KI270303.1	1942
+KI270381.1	1930
+KI270529.1	1899
+KI270425.1	1884
+KI270396.1	1880
+KI270363.1	1803
+KI270386.1	1788
+KI270465.1	1774
+KI270383.1	1750
+KI270384.1	1658
+KI270330.1	1652
+KI270372.1	1650
+KI270548.1	1599
+KI270580.1	1553
+KI270387.1	1537
+KI270391.1	1484
+KI270305.1	1472
+KI270373.1	1451
+KI270422.1	1445
+KI270316.1	1444
+KI270340.1	1428
+KI270338.1	1428
+KI270583.1	1400
+KI270334.1	1368
+KI270429.1	1361
+KI270393.1	1308
+KI270516.1	1300
+KI270389.1	1298
+KI270466.1	1233
+KI270388.1	1216
+KI270544.1	1202
+KI270310.1	1201
+KI270412.1	1179
+KI270395.1	1143
+KI270376.1	1136
+KI270337.1	1121
+KI270335.1	1048
+KI270378.1	1048
+KI270379.1	1045
+KI270329.1	1040
+KI270419.1	1029
+KI270336.1	1026
+KI270312.1	998
+KI270539.1	993
+KI270385.1	990
+KI270423.1	981
+KI270392.1	971
+KI270394.1	970
+Genome sequence total length = 3099750718
+Genome size with padding = 3138387968
+Feb 02 11:10:23 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/Homo_sapiens.GRCh38.113.gtf, found:
+		387944 transcripts
+		2164410 exons (non-collapsed)
+		528735 collapsed junctions
+Total junctions: 528735
+Feb 02 11:10:41 ..... finished GTF processing
+
+Estimated genome size with padding and SJs: total=genome+SJ=3437387968 = 3138387968 + 299000000
+GstrandBit=32
+Number of SA indices: 5897255510
+Feb 02 11:10:52 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 66;   chunks size limit: 824107456 bytes
+Feb 02 11:11:03 ... sorting Suffix Array chunks and saving them to disk...
+Writing 646294832 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_12 ; empty space on disk = 545880276992 bytes ... done
+Writing 733561360 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_17 ; empty space on disk = 545880276992 bytes ... done
+Writing 726113688 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_0 ; empty space on disk = 544504545280 bytes ... done
+Writing 656160232 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_11 ; empty space on disk = 544504545280 bytes ... done
+Writing 694356880 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_14 ; empty space on disk = 543128813568 bytes ... done
+Writing 624921536 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_4 ; empty space on disk = 543128813568 bytes ... done
+Writing 761428176 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_2 ; empty space on disk = 541803413504 bytes ... done
+Writing 699857280 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_7 ; empty space on disk = 541048438784 bytes ... done
+Writing 721678840 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_13 ; empty space on disk = 541048438784 bytes ... done
+Writing 822420064 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_5 ; empty space on disk = 539622375424 bytes ... done
+Writing 803156288 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_6 ; empty space on disk = 539622375424 bytes ... done
+Writing 677290048 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_10 ; empty space on disk = 539622375424 bytes ... done
+Writing 617677936 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_1 ; empty space on disk = 539622375424 bytes ... done
+Writing 717211072 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_15 ; empty space on disk = 536703139840 bytes ... done
+Writing 728779088 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_3 ; empty space on disk = 536703139840 bytes ... done
+Writing 817241176 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_16 ; empty space on disk = 536703139840 bytes ... done
+Writing 815141144 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_9 ; empty space on disk = 536703139840 bytes ... done
+Writing 788103792 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_8 ; empty space on disk = 534438215680 bytes ... done
+Writing 423739176 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_18 ; empty space on disk = 532827602944 bytes ... done
+Writing 583693248 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_23 ; empty space on disk = 532408172544 bytes ... done
+Writing 706282232 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_25 ; empty space on disk = 532408172544 bytes ... done
+Writing 682014360 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_22 ; empty space on disk = 531116326912 bytes ... done
+Writing 633233664 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_26 ; empty space on disk = 530445238272 bytes ... done
+Writing 697395368 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_29 ; empty space on disk = 529807704064 bytes ... done
+Writing 679355512 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_31 ; empty space on disk = 529103060992 bytes ... done
+Writing 669073656 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_34 ; empty space on disk = 528431972352 bytes ... done
+Writing 679709768 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_24 ; empty space on disk = 528431972352 bytes ... done
+Writing 804970176 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_27 ; empty space on disk = 527073017856 bytes ... done
+Writing 821979728 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_19 ; empty space on disk = 526267711488 bytes ... done
+Writing 714499856 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_21 ; empty space on disk = 526267711488 bytes ... done
+Writing 819454408 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_20 ; empty space on disk = 526267711488 bytes ... done
+Writing 714799000 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_30 ; empty space on disk = 523918901248 bytes ... done
+Writing 795236840 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_35 ; empty space on disk = 523197480960 bytes ... done
+Writing 773259488 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_32 ; empty space on disk = 522408951808 bytes ... done
+Writing 721713904 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_33 ; empty space on disk = 521637199872 bytes ... done
+Writing 810765888 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_36 ; empty space on disk = 520915779584 bytes ... done
+Writing 803242624 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_28 ; empty space on disk = 520110473216 bytes ... done
+Writing 616823840 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_38 ; empty space on disk = 519305166848 bytes ...Writing 789926928 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_42 ; empty space on disk = 519305166848 bytes ... done
+ done
+Writing 798874616 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_41 ; empty space on disk = 517895880704 bytes ... done
+Writing 726584624 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_43 ; empty space on disk = 517090574336 bytes ... done
+Writing 751613752 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_40 ; empty space on disk = 516369154048 bytes ... done
+Writing 736372976 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_39 ; empty space on disk = 515614179328 bytes ... done
+Writing 692129816 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_46 ; empty space on disk = 515614179328 bytes ... done
+Writing 618478280 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_49 ; empty space on disk = 515614179328 bytes ... done
+Writing 607053432 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_48 ; empty space on disk = 515614179328 bytes ... done
+Writing 815841624 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_37 ; empty space on disk = 512963379200 bytes ... done
+Writing 711401552 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_44 ; empty space on disk = 512963379200 bytes ... done
+Writing 805699784 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_47 ; empty space on disk = 512963379200 bytes ... done
+Writing 535274392 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_53 ; empty space on disk = 510631346176 bytes ... done
+Writing 696357744 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_45 ; empty space on disk = 510094475264 bytes ... done
+Writing 769920872 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_54 ; empty space on disk = 510094475264 bytes ... done
+Writing 719348200 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_51 ; empty space on disk = 509389832192 bytes ... done
+Writing 795195808 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_50 ; empty space on disk = 507913437184 bytes ... done
+Writing 796212752 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_52 ; empty space on disk = 507108130816 bytes ... done
+Writing 627071600 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_57 ; empty space on disk = 506319601664 bytes ... done
+Writing 761908560 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_59 ; empty space on disk = 505682067456 bytes ... done
+Writing 796059400 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_60 ; empty space on disk = 504927092736 bytes ... done
+Writing 635954576 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_62 ; empty space on disk = 504138563584 bytes ... done
+Writing 646693752 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_63 ; empty space on disk = 503501029376 bytes ... done
+Writing 667285112 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_58 ; empty space on disk = 503501029376 bytes ... done
+Writing 726121360 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_65 ; empty space on disk = 502175629312 bytes ... done
+Writing 678916128 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_56 ; empty space on disk = 501454209024 bytes ... done
+Writing 644639408 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_61 ; empty space on disk = 501454209024 bytes ... done
+Writing 716936624 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_55 ; empty space on disk = 500128808960 bytes ... done
+Writing 707534240 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA_64 ; empty space on disk = 499407388672 bytes ... done
+Feb 02 11:29:57 ... loading chunks from disk, packing SA...
+Feb 02 11:30:51 ... finished generating suffix array
+Feb 02 11:30:51 ... generating Suffix Array index
+Feb 02 11:34:03 ... completed Suffix Array index
+Feb 02 11:34:03   Finished preparing junctions
+Feb 02 11:34:03 ..... inserting junctions into the genome indices
+Feb 02 11:35:18   Finished SA search: number of new junctions=528709, old junctions=0
+Feb 02 11:37:09   Finished sorting SA indicesL nInd=315110424
+Genome size with junctions=3296471959  3138387968   158083991
+GstrandBit1=32   GstrandBit=32
+Feb 02 11:38:10   Finished inserting junction indices
+Feb 02 11:38:50   Finished SAi
+Feb 02 11:38:50 ..... finished inserting junctions into genome
+Feb 02 11:38:50 ... writing Genome to disk ...
+Writing 3296471959 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//Genome ; empty space on disk = 545863499776 bytes ... done
+SA size in bytes: 25626009481
+Feb 02 11:38:51 ... writing Suffix Array to disk ...
+Writing 25626009481 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SA ; empty space on disk = 545863499776 bytes ... done
+Feb 02 11:39:06 ... writing SAindex to disk
+Writing 8 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SAindex ; empty space on disk = 518063652864 bytes ... done
+Writing 120 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SAindex ; empty space on disk = 518063652864 bytes ... done
+Writing 1565873491 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index//SAindex ; empty space on disk = 518063652864 bytes ... done
+Feb 02 11:39:08 ..... finished successfully
+DONE: Genome generation, EXITING

@@ -1,0 +1,19 @@
+Job started on Sat Feb  8 12:41:31 PM CET 2025
+	STAR --runThreadN 18 --runMode genomeGenerate --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --genomeFastaFiles /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa --sjdbGTFfile /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.113.gtf --sjdbOverhang 149
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 08 12:41:31 ..... started STAR run
+!!!!! WARNING: Could not move Log.out file from ./Log.out into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index/Log.out. Will keep ./Log.out
+
+Feb 08 12:41:31 ... starting to generate Genome files
+Feb 08 12:42:05 ..... processing annotations GTF
+Feb 08 12:42:25 ... starting to sort Suffix Array. This may take a long time...
+Feb 08 12:42:35 ... sorting Suffix Array chunks and saving them to disk...
+Feb 08 12:51:09 ... loading chunks from disk, packing SA...
+Feb 08 12:52:03 ... finished generating suffix array
+Feb 08 12:52:03 ... generating Suffix Array index
+Feb 08 12:55:12 ... completed Suffix Array index
+Feb 08 12:55:12 ..... inserting junctions into the genome indices
+Feb 08 12:59:08 ... writing Genome to disk ...
+Feb 08 12:59:09 ... writing Suffix Array to disk ...
+Feb 08 12:59:24 ... writing SAindex to disk
+Feb 08 12:59:26 ..... finished successfully

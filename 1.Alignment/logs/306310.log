@@ -1,0 +1,85 @@
+Job started on Thu Feb  6 08:13:22 PM CET 2025
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_dKO_1/H3B_dKO_1_MKRN240023768-1A_22HGLTLT4_L2_1.fq.gz H3B_dKO_1/H3B_dKO_1_MKRN240023768-1A_22HGLTLT4_L2_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_dKO_1_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 20:13:22 ..... started STAR run
+Feb 06 20:13:22 ..... loading genome
+Feb 06 20:13:37 ..... started mapping
+Feb 06 20:18:54 ..... finished mapping
+Feb 06 20:18:56 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_M_1/H3B_M_1_MKRN240023765-1A_22HGLTLT4_L2_1.fq.gz H3B_M_1/H3B_M_1_MKRN240023765-1A_22HGLTLT4_L2_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_M_1_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 20:18:56 ..... started STAR run
+Feb 06 20:18:56 ..... loading genome
+Feb 06 20:19:10 ..... started mapping
+Feb 06 20:27:49 ..... finished mapping
+Feb 06 20:27:50 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_T_1/H3B_T_1_MKRN240023762-1A_22HGLTLT4_L2_1.fq.gz H3B_T_1/H3B_T_1_MKRN240023762-1A_22HGLTLT4_L2_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_T_1_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 20:27:50 ..... started STAR run
+Feb 06 20:27:50 ..... loading genome
+Feb 06 20:28:05 ..... started mapping
+Feb 06 20:34:29 ..... finished mapping
+Feb 06 20:34:30 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_WT_1/H3B_WT_1_MKRN240023759-1A_22HGLTLT4_L2_1.fq.gz H3B_WT_1/H3B_WT_1_MKRN240023759-1A_22HGLTLT4_L2_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_WT_1_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 20:34:31 ..... started STAR run
+Feb 06 20:34:31 ..... loading genome
+Feb 06 20:34:45 ..... started mapping
+Feb 06 20:39:48 ..... finished mapping
+Feb 06 20:39:49 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_dKO_2/H3B_dKO_2_MKRN240023769-1A_22HGLTLT4_L2_1.fq.gz H3B_dKO_2/H3B_dKO_2_MKRN240023769-1A_22HGLTLT4_L2_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_dKO_2_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 20:39:50 ..... started STAR run
+Feb 06 20:39:50 ..... loading genome
+Feb 06 20:40:05 ..... started mapping
+Feb 06 20:46:18 ..... finished mapping
+Feb 06 20:46:20 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_M_2/H3B_M_2_MKRN240023766-1A_22HGLTLT4_L1_1.fq.gz H3B_M_2/H3B_M_2_MKRN240023766-1A_22HGLTLT4_L1_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_M_2_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 20:46:20 ..... started STAR run
+Feb 06 20:46:20 ..... loading genome
+Feb 06 20:46:35 ..... started mapping
+Feb 06 20:53:54 ..... finished mapping
+Feb 06 20:53:55 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_T_2/H3B_T_2_MKRN240023763-1A_22HGLTLT4_L4_1.fq.gz H3B_T_2/H3B_T_2_MKRN240023763-1A_22HGLTLT4_L4_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_T_2_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 20:53:55 ..... started STAR run
+Feb 06 20:53:55 ..... loading genome
+Feb 06 20:54:10 ..... started mapping
+Feb 06 20:59:10 ..... finished mapping
+Feb 06 20:59:11 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_WT_2/H3B_WT_2_MKRN240023760-1A_22HGLTLT4_L2_1.fq.gz H3B_WT_2/H3B_WT_2_MKRN240023760-1A_22HGLTLT4_L2_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_WT_2_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 20:59:11 ..... started STAR run
+Feb 06 20:59:11 ..... loading genome
+Feb 06 20:59:26 ..... started mapping
+Feb 06 21:05:36 ..... finished mapping
+Feb 06 21:05:38 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_dKO_3/H3B_dKO_3_MKRN240023770-1A_22HGLTLT4_L2_1.fq.gz H3B_dKO_3/H3B_dKO_3_MKRN240023770-1A_22HGLTLT4_L2_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_dKO_3_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 21:05:38 ..... started STAR run
+Feb 06 21:05:38 ..... loading genome
+Feb 06 21:05:53 ..... started mapping
+Feb 06 21:11:11 ..... finished mapping
+Feb 06 21:11:12 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_M_3/H3B_M_3_MKRN240023767-1A_22HGLTLT4_L4_1.fq.gz H3B_M_3/H3B_M_3_MKRN240023767-1A_22HGLTLT4_L4_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_M_3_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 21:11:12 ..... started STAR run
+Feb 06 21:11:12 ..... loading genome
+Feb 06 21:11:28 ..... started mapping
+Feb 06 21:18:08 ..... finished mapping
+Feb 06 21:18:09 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_T_3/H3B_T_3_MKRN240023764-1A_22HGLTLT4_L4_1.fq.gz H3B_T_3/H3B_T_3_MKRN240023764-1A_22HGLTLT4_L4_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_T_3_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 21:18:09 ..... started STAR run
+Feb 06 21:18:09 ..... loading genome
+Feb 06 21:18:24 ..... started mapping
+Feb 06 21:23:20 ..... finished mapping
+Feb 06 21:23:21 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/index --readFilesIn H3B_WT_3/H3B_WT_3_MKRN240023761-1A_22HGLTLT4_L2_1.fq.gz H3B_WT_3/H3B_WT_3_MKRN240023761-1A_22HGLTLT4_L2_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/human/results2/H3B_WT_3_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 06 21:23:21 ..... started STAR run
+Feb 06 21:23:21 ..... loading genome
+Feb 06 21:23:35 ..... started mapping
+Feb 06 21:29:17 ..... finished mapping
+Feb 06 21:29:18 ..... finished successfully

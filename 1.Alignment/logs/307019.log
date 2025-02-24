@@ -1,0 +1,92 @@
+Job started on Wed Feb 12 03:20:36 PM CET 2025
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_dKO_1/RIL_dKO_1_MKRN240023756-1A_22HGLTLT4_L1_1.fq.gz RIL_dKO_1/RIL_dKO_1_MKRN240023756-1A_22HGLTLT4_L1_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_dKO_1_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 15:20:37 ..... started STAR run
+Feb 12 15:20:37 ..... loading genome
+Feb 12 15:20:51 ..... started mapping
+Feb 12 15:28:44 ..... finished mapping
+Feb 12 15:28:45 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_M_1/RIL_M_1_MKRN240023753-1A_22HGLTLT4_L1_1.fq.gz RIL_M_1/RIL_M_1_MKRN240023753-1A_22HGLTLT4_L1_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_M_1_L1_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 15:28:45 ..... started STAR run
+Feb 12 15:28:45 ..... loading genome
+Feb 12 15:28:58 ..... started mapping
+Feb 12 15:33:01 ..... finished mapping
+Feb 12 15:33:02 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_M_1/RIL_M_1_MKRN240023753-1A_22HGGMLT4_L7_1.fq.gz RIL_M_1/RIL_M_1_MKRN240023753-1A_22HGGMLT4_L7_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_M_1_L7_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 15:33:02 ..... started STAR run
+Feb 12 15:33:02 ..... loading genome
+Feb 12 15:33:15 ..... started mapping
+Feb 12 15:37:04 ..... finished mapping
+Feb 12 15:37:05 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_T_1/RIL_T_1_MKRN240023750-1A_22HGLTLT4_L3_1.fq.gz RIL_T_1/RIL_T_1_MKRN240023750-1A_22HGLTLT4_L3_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_T_1_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 15:37:05 ..... started STAR run
+Feb 12 15:37:05 ..... loading genome
+Feb 12 15:37:18 ..... started mapping
+Feb 12 15:44:27 ..... finished mapping
+Feb 12 15:44:27 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_WT_1/RIL_WT_1_MKRN240023747-1A_22HGLTLT4_L1_1.fq.gz RIL_WT_1/RIL_WT_1_MKRN240023747-1A_22HGLTLT4_L1_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_WT_1_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 15:44:27 ..... started STAR run
+Feb 12 15:44:27 ..... loading genome
+Feb 12 15:44:41 ..... started mapping
+Feb 12 15:52:31 ..... finished mapping
+Feb 12 15:52:32 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_dKO_2/RIL_dKO_2_MKRN240023757-1A_22HGLTLT4_L1_1.fq.gz RIL_dKO_2/RIL_dKO_2_MKRN240023757-1A_22HGLTLT4_L1_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_dKO_2_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 15:52:32 ..... started STAR run
+Feb 12 15:52:32 ..... loading genome
+Feb 12 15:52:46 ..... started mapping
+Feb 12 15:59:10 ..... finished mapping
+Feb 12 15:59:10 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_M_2/RIL_M_2_MKRN240023754-1A_22HGLTLT4_L2_1.fq.gz RIL_M_2/RIL_M_2_MKRN240023754-1A_22HGLTLT4_L2_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_M_2_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 15:59:10 ..... started STAR run
+Feb 12 15:59:10 ..... loading genome
+Feb 12 15:59:24 ..... started mapping
+Feb 12 16:07:08 ..... finished mapping
+Feb 12 16:07:09 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_T_2/RIL_T_2_MKRN240023751-1A_22HGLTLT4_L1_1.fq.gz RIL_T_2/RIL_T_2_MKRN240023751-1A_22HGLTLT4_L1_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_T_2_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 16:07:09 ..... started STAR run
+Feb 12 16:07:09 ..... loading genome
+Feb 12 16:07:23 ..... started mapping
+Feb 12 16:17:33 ..... finished mapping
+Feb 12 16:17:34 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_WT_2/RIL_WT_2_MKRN240023748-1A_22HGLTLT4_L1_1.fq.gz RIL_WT_2/RIL_WT_2_MKRN240023748-1A_22HGLTLT4_L1_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_WT_2_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 16:17:34 ..... started STAR run
+Feb 12 16:17:34 ..... loading genome
+Feb 12 16:17:47 ..... started mapping
+Feb 12 16:25:10 ..... finished mapping
+Feb 12 16:25:11 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_dKO_3/RIL_dKO_3_MKRN240023758-1A_22HGLTLT4_L2_1.fq.gz RIL_dKO_3/RIL_dKO_3_MKRN240023758-1A_22HGLTLT4_L2_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_dKO_3_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 16:25:11 ..... started STAR run
+Feb 12 16:25:11 ..... loading genome
+Feb 12 16:25:25 ..... started mapping
+Feb 12 16:32:22 ..... finished mapping
+Feb 12 16:32:23 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_M_3/RIL_M_3_MKRN240023755-1A_22HGLTLT4_L5_1.fq.gz RIL_M_3/RIL_M_3_MKRN240023755-1A_22HGLTLT4_L5_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_M_3_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 16:32:23 ..... started STAR run
+Feb 12 16:32:23 ..... loading genome
+Feb 12 16:32:36 ..... started mapping
+Feb 12 16:40:07 ..... finished mapping
+Feb 12 16:40:08 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_T_3/RIL_T_3_MKRN240023752-1A_22HGLTLT4_L1_1.fq.gz RIL_T_3/RIL_T_3_MKRN240023752-1A_22HGLTLT4_L1_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_T_3_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 16:40:08 ..... started STAR run
+Feb 12 16:40:08 ..... loading genome
+Feb 12 16:40:21 ..... started mapping
+Feb 12 16:49:44 ..... finished mapping
+Feb 12 16:49:45 ..... finished successfully
+	STAR --runThreadN 18 --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --readFilesIn RIL_WT_3/RIL_WT_3_MKRN240023749-1A_22HGLTLT4_L1_1.fq.gz RIL_WT_3/RIL_WT_3_MKRN240023749-1A_22HGLTLT4_L1_2.fq.gz --readFilesCommand gunzip -c --outFileNamePrefix /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/results/RIL_WT_3_
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Feb 12 16:49:45 ..... started STAR run
+Feb 12 16:49:45 ..... loading genome
+Feb 12 16:49:58 ..... started mapping
+Feb 12 16:59:25 ..... finished mapping
+Feb 12 16:59:25 ..... finished successfully

@@ -1,0 +1,263 @@
+STAR version=2.7.10b
+STAR compilation time,server,dir=2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+STAR git: On branch master ; commit c6f8efc2c7043ef83bf8b0d9bed36bbb6b9b1133 ; diff files: CHANGES.md 
+##### Command Line:
+STAR --runThreadN 18 --runMode genomeGenerate --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index --genomeFastaFiles /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa --sjdbGTFfile /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.113.gtf --sjdbOverhang 149
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    18     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index     ~RE-DEFINED
+genomeFastaFiles              /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa        ~RE-DEFINED
+sjdbGTFfile                   /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.113.gtf     ~RE-DEFINED
+sjdbOverhang                  149     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        18
+genomeDir                         /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index
+genomeFastaFiles                  /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa   
+sjdbGTFfile                       /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.113.gtf
+sjdbOverhang                      149
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode genomeGenerate      --runThreadN 18   --genomeDir /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index   --genomeFastaFiles /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa      --sjdbGTFfile /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.113.gtf   --sjdbOverhang 149
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index/
+!!!!! WARNING: Could not move Log.out file from ./Log.out into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index/Log.out. Will keep ./Log.out
+
+Feb 08 12:41:31 ... starting to generate Genome files
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 0  "1" chrStart: 0
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 1  "10" chrStart: 195297280
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 2  "11" chrStart: 325844992
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 3  "12" chrStart: 448004096
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 4  "13" chrStart: 568328192
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 5  "14" chrStart: 689438720
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 6  "15" chrStart: 814743552
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 7  "16" chrStart: 919076864
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 8  "17" chrStart: 1017118720
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 9  "18" chrStart: 1112539136
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 10  "19" chrStart: 1203503104
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 11  "2" chrStart: 1265106944
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 12  "3" chrStart: 1447034880
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 13  "4" chrStart: 1606942720
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 14  "5" chrStart: 1763966976
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 15  "6" chrStart: 1915748352
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 16  "7" chrStart: 2065432576
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 17  "8" chrStart: 2210660352
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 18  "9" chrStart: 2340945920
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 19  "MT" chrStart: 2465464320
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 20  "X" chrStart: 2465726464
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 21  "Y" chrStart: 2635333632
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 22  "JH584299.1" chrStart: 2726821888
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 23  "GL456233.2" chrStart: 2727870464
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 24  "JH584301.1" chrStart: 2728656896
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 25  "GL456211.1" chrStart: 2728919040
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 26  "GL456221.1" chrStart: 2729181184
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 27  "JH584297.1" chrStart: 2729443328
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 28  "JH584296.1" chrStart: 2729705472
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 29  "GL456354.1" chrStart: 2729967616
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 30  "JH584298.1" chrStart: 2730229760
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 31  "JH584300.1" chrStart: 2730491904
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 32  "GL456219.1" chrStart: 2730754048
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 33  "GL456210.1" chrStart: 2731016192
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 34  "JH584303.1" chrStart: 2731278336
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 35  "JH584302.1" chrStart: 2731540480
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 36  "GL456212.1" chrStart: 2731802624
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 37  "JH584304.1" chrStart: 2732064768
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 38  "GL456379.1" chrStart: 2732326912
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 39  "GL456366.1" chrStart: 2732589056
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 40  "GL456367.1" chrStart: 2732851200
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 41  "GL456239.1" chrStart: 2733113344
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 42  "GL456383.1" chrStart: 2733375488
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 43  "GL456385.1" chrStart: 2733637632
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 44  "GL456360.1" chrStart: 2733899776
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 45  "GL456378.1" chrStart: 2734161920
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 46  "MU069435.1" chrStart: 2734424064
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 47  "GL456389.1" chrStart: 2734686208
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 48  "GL456372.1" chrStart: 2734948352
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 49  "GL456370.1" chrStart: 2735210496
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 50  "GL456381.1" chrStart: 2735472640
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 51  "GL456387.1" chrStart: 2735734784
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 52  "GL456390.1" chrStart: 2735996928
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 53  "GL456394.1" chrStart: 2736259072
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 54  "GL456392.1" chrStart: 2736521216
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 55  "GL456382.1" chrStart: 2736783360
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 56  "GL456359.1" chrStart: 2737045504
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 57  "GL456396.1" chrStart: 2737307648
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 58  "GL456368.1" chrStart: 2737569792
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 59  "MU069434.1" chrStart: 2737831936
+/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.dna.primary_assembly.fa : chr # 60  "JH584295.1" chrStart: 2738094080
+Chromosome sequence lengths: 
+1	195154279
+10	130530862
+11	121973369
+12	120092757
+13	120883175
+14	125139656
+15	104073951
+16	98008968
+17	95294699
+18	90720763
+19	61420004
+2	181755017
+3	159745316
+4	156860686
+5	151758149
+6	149588044
+7	144995196
+8	130127694
+9	124359700
+MT	16299
+X	169476592
+Y	91455967
+JH584299.1	953012
+GL456233.2	559103
+JH584301.1	259875
+GL456211.1	241735
+GL456221.1	206961
+JH584297.1	205776
+JH584296.1	199368
+GL456354.1	195993
+JH584298.1	184189
+JH584300.1	182347
+GL456219.1	175968
+GL456210.1	169725
+JH584303.1	158099
+JH584302.1	155838
+GL456212.1	153618
+JH584304.1	114452
+GL456379.1	72385
+GL456366.1	47073
+GL456367.1	42057
+GL456239.1	40056
+GL456383.1	38659
+GL456385.1	35240
+GL456360.1	31704
+GL456378.1	31602
+MU069435.1	31129
+GL456389.1	28772
+GL456372.1	28664
+GL456370.1	26764
+GL456381.1	25871
+GL456387.1	24685
+GL456390.1	24668
+GL456394.1	24323
+GL456392.1	23629
+GL456382.1	23158
+GL456359.1	22974
+GL456396.1	21240
+GL456368.1	20208
+MU069434.1	8412
+JH584295.1	1976
+Genome sequence total length = 2728222451
+Genome size with padding = 2738356224
+Feb 08 12:42:05 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/Mus_musculus.GRCm39.113.gtf, found:
+		278375 transcripts
+		1298756 exons (non-collapsed)
+		412718 collapsed junctions
+Total junctions: 412718
+Feb 08 12:42:15 ..... finished GTF processing
+
+Estimated genome size with padding and SJs: total=genome+SJ=3037356224 = 2738356224 + 299000000
+GstrandBit=32
+Number of SA indices: 5309243566
+Feb 08 12:42:25 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 58;   chunks size limit: 850776240 bytes
+Feb 08 12:42:35 ... sorting Suffix Array chunks and saving them to disk...
+Writing 551806104 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_8 ; empty space on disk = 158293032960 bytes ... done
+Writing 642130976 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_2 ; empty space on disk = 157739384832 bytes ...Writing 624676712 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_4 ; empty space on disk = 157739384832 bytes ... done
+ done
+Writing 664011232 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_1 ; empty space on disk = 157739384832 bytes ... done
+Writing 699887696 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_3 ; empty space on disk = 155810004992 bytes ... done
+Writing 750335304 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_0 ; empty space on disk = 155810004992 bytes ... done
+Writing 737409472 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_7 ; empty space on disk = 155810004992 bytes ... done
+Writing 723484920 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_6 ; empty space on disk = 155810004992 bytes ... done
+Writing 690405328 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_12 ; empty space on disk = 152907546624 bytes ... done
+Writing 744553416 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_5 ; empty space on disk = 152907546624 bytes ... done
+Writing 710892472 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_16 ; empty space on disk = 151464706048 bytes ... done
+Writing 791363576 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_14 ; empty space on disk = 151464706048 bytes ... done
+Writing 772253728 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_11 ; empty space on disk = 151464706048 bytes ...Writing 827519496 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_9 ; empty space on disk = 151464706048 bytes ... done
+ done
+Writing 826541384 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_10 ; empty space on disk = 151464706048 bytes ... done
+Writing 788920160 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_15 ; empty space on disk = 147538837504 bytes ... done
+Writing 842265312 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_13 ; empty space on disk = 147538837504 bytes ... done
+Writing 796401824 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_17 ; empty space on disk = 147538837504 bytes ... done
+Writing 684955624 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_18 ; empty space on disk = 145106141184 bytes ... done
+Writing 690113952 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_19 ; empty space on disk = 145106141184 bytes ... done
+Writing 620131216 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_25 ; empty space on disk = 145106141184 bytes ... done
+Writing 756801752 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_20 ; empty space on disk = 143126429696 bytes ... done
+Writing 639960464 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_27 ; empty space on disk = 143126429696 bytes ... done
+Writing 705767464 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_26 ; empty space on disk = 143126429696 bytes ... done
+Writing 723997624 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_24 ; empty space on disk = 142354677760 bytes ... done
+Writing 629065256 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_34 ; empty space on disk = 142354677760 bytes ... done
+Writing 630932224 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_30 ; empty space on disk = 142354677760 bytes ...Writing 837563032 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_22 ; empty space on disk = 142354677760 bytes ... done
+ done
+Writing 819107808 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_21 ; empty space on disk = 142354677760 bytes ... done
+Writing 682047280 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_29 ; empty space on disk = 137371844608 bytes ... done
+Writing 696511456 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_35 ; empty space on disk = 137371844608 bytes ... done
+Writing 752638664 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_31 ; empty space on disk = 136700755968 bytes ... done
+Writing 738457808 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_28 ; empty space on disk = 136700755968 bytes ... done
+Writing 835258408 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_23 ; empty space on disk = 136700755968 bytes ... done
+Writing 839440344 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_32 ; empty space on disk = 133664079872 bytes ... done
+Writing 833599864 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_33 ; empty space on disk = 133664079872 bytes ... done
+Writing 742548960 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_36 ; empty space on disk = 132003135488 bytes ... done
+Writing 779316216 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_37 ; empty space on disk = 132003135488 bytes ... done
+Writing 544217952 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_47 ; empty space on disk = 130476408832 bytes ... done
+Writing 618635928 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_39 ; empty space on disk = 130476408832 bytes ... done
+Writing 644206048 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_40 ; empty space on disk = 129318780928 bytes ... done
+Writing 576697640 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_51 ; empty space on disk = 129318780928 bytes ... done
+Writing 760652272 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_38 ; empty space on disk = 128094044160 bytes ... done
+Writing 695104464 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_42 ; empty space on disk = 127322292224 bytes ... done
+Writing 711462808 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_48 ; empty space on disk = 126634426368 bytes ... done
+Writing 743019600 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_46 ; empty space on disk = 126634426368 bytes ... done
+Writing 804478544 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_53 ; empty space on disk = 126634426368 bytes ... done
+Writing 785302104 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_49 ; empty space on disk = 124369502208 bytes ... done
+Writing 819640120 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_43 ; empty space on disk = 124369502208 bytes ... done
+Writing 807575160 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_44 ; empty space on disk = 122775666688 bytes ...Writing 832920160 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_52 ; empty space on disk = 122775666688 bytes ... done
+ done
+Writing 835054912 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_45 ; empty space on disk = 122775666688 bytes ... done
+Writing 817575616 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_50 ; empty space on disk = 122775666688 bytes ... done
+Writing 831298888 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_41 ; empty space on disk = 122775666688 bytes ... done
+Writing 589521960 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_55 ; empty space on disk = 118648471552 bytes ... done
+Writing 612596648 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_56 ; empty space on disk = 118061268992 bytes ... done
+Writing 819161856 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_54 ; empty space on disk = 117440512000 bytes ... done
+Writing 801751320 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA_57 ; empty space on disk = 116618428416 bytes ... done
+Feb 08 12:51:09 ... loading chunks from disk, packing SA...
+Feb 08 12:52:03 ... finished generating suffix array
+Feb 08 12:52:03 ... generating Suffix Array index
+Feb 08 12:55:12 ... completed Suffix Array index
+WARNING: long repeat for junction # 95102 : 13 36192501 36373186; left shift = 255; right shift = 29
+WARNING: long repeat for junction # 108187 : 13 119631671 120070727; left shift = 36; right shift = 255
+WARNING: long repeat for junction # 133784 : 15 75976552 75988902; left shift = 0; right shift = 255
+WARNING: long repeat for junction # 291887 : 5 112922393 112922883; left shift = 255; right shift = 69
+WARNING: long repeat for junction # 295352 : 5 123328298 123329023; left shift = 255; right shift = 19
+WARNING: long repeat for junction # 308094 : 6 48731569 48732130; left shift = 81; right shift = 255
+WARNING: long repeat for junction # 351083 : 7 141361933 141364041; left shift = 255; right shift = 255
+Feb 08 12:55:12   Finished preparing junctions
+Feb 08 12:55:12 ..... inserting junctions into the genome indices
+Feb 08 12:56:11   Finished SA search: number of new junctions=412667, old junctions=0
+Feb 08 12:57:38   Finished sorting SA indicesL nInd=245949094
+Genome size with junctions=2861743657  2738356224   123387433
+GstrandBit1=32   GstrandBit=32
+Feb 08 12:58:34   Finished inserting junction indices
+Feb 08 12:59:08   Finished SAi
+Feb 08 12:59:08 ..... finished inserting junctions into genome
+Feb 08 12:59:08 ... writing Genome to disk ...
+Writing 2861743657 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//Genome ; empty space on disk = 158276255744 bytes ... done
+SA size in bytes: 22915169726
+Feb 08 12:59:09 ... writing Suffix Array to disk ...
+Writing 22915169726 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SA ; empty space on disk = 158276255744 bytes ... done
+Feb 08 12:59:24 ... writing SAindex to disk
+Writing 8 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SAindex ; empty space on disk = 137002745856 bytes ... done
+Writing 120 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SAindex ; empty space on disk = 137002745856 bytes ... done
+Writing 1565873491 bytes into /dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/1.Alignment/mouse/index//SAindex ; empty space on disk = 137002745856 bytes ... done
+Feb 08 12:59:26 ..... finished successfully
+DONE: Genome generation, EXITING
