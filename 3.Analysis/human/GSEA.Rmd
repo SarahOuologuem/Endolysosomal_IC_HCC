@@ -1,0 +1,165 @@
+
+```{r}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("clusterProfiler")
+BiocManager::install("org.Hs.eg.db")
+BiocManager::install("enrichplot")
+
+library(clusterProfiler)
+library(org.Hs.eg.db)
+library(enrichplot)
+```
+
+
+
+## Gene Set Enrichment Analysis
+
+### dKO vs WT
+
+Read in DGE results: 
+
+```{r}
+dge_results = read.csv("DGE_results/dKO_vs_WT_HGNC.csv", row.names = 1)
+
+# Extract only the log2FC
+foldchange <- dge_results$log2FoldChange
+
+# Attach the names to the log2FC
+names(foldchange) <- dge_results$X
+
+# Remove NA values
+foldchange <- na.omit(foldchange)
+
+# Sort the list in decreasing Log2FC (required for the analysis)
+foldchange = sort(foldchange, decreasing = TRUE)
+```
+
+
+Run GSEA: 
+
+
+
+```{r}
+gsea_results =  gseGO(geneList  = foldchange,
+              OrgDb        = org.Hs.eg.db,
+              ont          = "BP",
+              keyType = "ENSEMBL",
+              pvalueCutoff = 0.05,
+              verbose      = FALSE)
+```
+
+```{r}
+write.csv(gsea_results, "./GSEA_results/dKO_vs_WT.csv")
+```
+
+```{r, fig.height=12, fig.width=10}
+dotplot(gsea_results, showCategory=15) + ggtitle("Dotplot for GSEA")
+```
+
+
+
+```{r}
+dotplot(gsea_results, showCategory=5, split=".sign") + facet_grid(.~.sign)
+```
+
+
+### T vs WT
+
+Read in DGE results: 
+
+```{r}
+dge_results = read.csv("DGE_results/T_vs_WT_HGNC.csv", row.names = 1)
+
+# Extract only the log2FC
+foldchange <- dge_results$log2FoldChange
+
+# Attach the names to the log2FC
+names(foldchange) <- dge_results$X
+
+# Remove NA values
+foldchange <- na.omit(foldchange)
+
+# Sort the list in decreasing Log2FC (required for the analysis)
+foldchange = sort(foldchange, decreasing = TRUE)
+```
+
+
+Run GSEA: 
+
+
+
+```{r}
+gsea_results =  gseGO(geneList  = foldchange,
+              OrgDb        = org.Hs.eg.db,
+              ont          = "BP",
+              keyType = "ENSEMBL",
+              pvalueCutoff = 0.05,
+              verbose      = FALSE)
+```
+
+```{r}
+write.csv(gsea_results, "./GSEA_results/T_vs_WT.csv")
+```
+
+```{r, fig.height=12, fig.width=10}
+dotplot(gsea_results, showCategory=15) + ggtitle("Dotplot for GSEA")
+```
+
+```{r}
+dotplot(gsea_results, showCategory=10, split=".sign") + facet_grid(.~.sign)
+```
+
+
+
+### M vs WT
+
+
+
+Read in DGE results: 
+
+```{r}
+dge_results = read.csv("DGE_results/M_vs_WT_HGNC.csv", row.names = 1)
+
+# Extract only the log2FC
+foldchange <- dge_results$log2FoldChange
+
+# Attach the names to the log2FC
+names(foldchange) <- dge_results$X
+
+# Remove NA values
+foldchange <- na.omit(foldchange)
+
+# Sort the list in decreasing Log2FC (required for the analysis)
+foldchange = sort(foldchange, decreasing = TRUE)
+```
+
+
+Run GSEA: 
+
+
+
+```{r}
+gsea_results =  gseGO(geneList  = foldchange,
+              OrgDb        = org.Hs.eg.db,
+              ont          = "BP",
+              keyType = "ENSEMBL",
+              pvalueCutoff = 0.05,
+              verbose      = FALSE)
+```
+
+
+```{r}
+write.csv(gsea_results, "./GSEA_results/M_vs_WT.csv")
+```
+
+```{r, fig.height=12, fig.width=10}
+dotplot(gsea_results, showCategory=15) + ggtitle("Dotplot for GSEA")
+```
+
+```{r}
+dotplot(gsea_results, showCategory=5, split=".sign") + facet_grid(.~.sign)
+```
+
+

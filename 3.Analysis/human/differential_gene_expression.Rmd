@@ -1,0 +1,290 @@
+
+
+```{r}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("DESeq2")
+
+install.packages("pheatmap")
+install.packages("ggplot2")
+install.packages("tidyr")
+```
+
+
+```{r}
+library(DESeq2)
+library(dplyr)
+library(EnhancedVolcano)
+library(biomaRt)
+library(pheatmap)
+library(ggplot2)
+library(tidyr)
+```
+
+
+
+## Run Differential Gene Expression Analysis: Human
+
+
+Read in the data: 
+
+```{r}
+data = read.csv("/dss/dssfs02/lwp-dss-0001/ui521/ui521-dss-0000/ru62tig2/2.Read_Counting/H3B_matrix.tsv", sep="\t", skip = 1)
+new_colnames = c()
+for(i in 2:13){
+new_colnames = append(new_colnames, paste0(strsplit(colnames(data)[i], split="_")[[1]][c(2,3)], collapse="_"))
+}
+colnames(data)[2:13] = new_colnames
+rownames(data) = data$Geneid
+data$Geneid = NULL
+data
+```
+
+
+
+Create data frame for column information:
+
+
+```{r}
+coldata = read.csv("ColData.csv", row.names = 1)
+coldata
+x = factor(coldata$condition, levels = c("WT", "dKO", "M", "T"))
+coldata$condition = x
+coldata
+```
+
+
+```{r}
+# reorder columns
+data = data[, rownames(coldata)]
+# filter the data
+row_sums <- rowSums(data)
+filtered = data[row_sums>= 10,]
+# create DESeqDataSet
+dds = DESeqDataSetFromMatrix(countData = filtered,
+                              colData = coldata,
+                              design= ~ condition)
+# Run analysis
+dds = DESeq(dds)
+dds
+```
+
+```{r}
+resultsNames(dds)
+```
+
+
+
+Plot PCA
+
+```{r}
+vsd = vst(dds, blind=FALSE)
+
+plotPCA(vsd, intgroup=c("condition"))
+```
+
+
+
+```{r}
+pcaData <- plotPCA(vsd, intgroup=c("condition"), returnData=TRUE)
+percentVar <- round(100 * attr(pcaData, "percentVar"))
+pcaData = pcaData%>%  separate(name, c("cond", "sample"))
+ggplot(pcaData, aes(PC1, PC2, color=condition, shape=sample)) +
+  geom_point(size=3) +
+  xlab(paste0("PC1: ",percentVar[1],"% variance")) +
+  ylab(paste0("PC2: ",percentVar[2],"% variance")) + 
+  theme_bw() +
+  coord_fixed() 
+```
+
+
+
+
+
+
+
+Look at results of different cases: 
+
+### WT vs. dKO
+
+```{r}
+res_wt_ko = results(dds, contrast = c("condition","dKO","WT"))
+res_wt_ko = lfcShrink(dds, coef ="condition_dKO_vs_WT", type="apeglm")
+res_wt_ko
+write.csv(res_wt_ko, "./DGE_results/dKO_vs_WT.csv")
+summary(res_wt_ko)
+```
+
+
+```{r}
+plotMA(res_wt_ko, ylim=c(-2,2))
+```
+
+Convert ensembl names to HGNC
+
+
+```{r}
+mart <- useDataset("hsapiens_gene_ensembl", useMart("ensembl"))
+genes <- rownames(res_wt_ko)
+hgnc_symbols = getBM(filters= "ensembl_gene_id", attributes= c("ensembl_gene_id",
+"hgnc_symbol", "description"),values=genes,mart= mart)
+hgnc_symbols
+```
+
+```{r}
+duplicates = hgnc_symbols[duplicated(hgnc_symbols$ensembl_gene_id),]$ensembl_gene_id
+hgnc_symbols[hgnc_symbols$ensembl_gene_id %in% duplicates,]
+```
+
+```{r}
+hgnc_symbols[hgnc_symbols$ensembl_gene_id=="ENSG00000286061", "hgnc_symbol"] = "NCMAP-DT, RCAN3AS"
+hgnc_symbols[hgnc_symbols$ensembl_gene_id=="ENSG00000280739", "hgnc_symbol"] = "EIF1B-AS1, ENTPD3-AS1"
+hgnc_symbols[hgnc_symbols$ensembl_gene_id=="ENSG00000290758", "hgnc_symbol"] = "POLR2J4, RASA4CP"
+hgnc_symbols[hgnc_symbols$ensembl_gene_id=="ENSG00000230417", "hgnc_symbol"] = "LINC00595, LINC00856"
+hgnc_symbols = hgnc_symbols[!duplicated(hgnc_symbols), ]
+rownames(hgnc_symbols) = hgnc_symbols$ensembl_gene_id
+hgnc_symbols$ensembl_gene_id = NULL
+hgnc_symbols
+```
+
+```{r}
+write.csv(hgnc_symbols, "./DGE_results/HGNC_symbols.csv")
+```
+
+
+```{r}
+res_wt_ko
+```
+```{r}
+hgnc_symbols = read.csv("./DGE_results/HGNC_symbols.csv")
+res_wt_ko = read.csv("./DGE_results/dKO_vs_WT.csv")
+res_wt_ko = left_join(res_wt_ko, hgnc_symbols) #, by=c("rowname" = "Symbol"))
+write.csv(res_wt_ko, "./DGE_results/dKO_vs_WT_HGNC.csv")
+```
+
+
+
+
+```{r, fig.width=7, fig.height=10}
+EnhancedVolcano(res_wt_ko,
+    lab = res_wt_ko$hgnc_symbol,
+    title = 'dKO vs. WT',
+    x = 'log2FoldChange',
+    y = 'pvalue')
+```
+
+
+
+### WT vs. T
+
+```{r}
+res_wt_t = results(dds, contrast = c("condition","T","WT"))
+res_wt_t = lfcShrink(dds, coef ="condition_T_vs_WT", type="apeglm")
+res_wt_t
+write.csv(res_wt_t, "./DGE_results/T_vs_WT.csv")
+summary(res_wt_t)
+#resultsNames(dds)
+plotMA(res_wt_t, ylim=c(-2,2))
+```
+
+
+Convert ensembl names to HGNC
+
+
+```{r}
+hgnc_symbols = read.csv("./DGE_results/HGNC_symbols.csv")
+res_wt_t = read.csv("./DGE_results/T_vs_WT.csv")
+res_wt_t = left_join(res_wt_t, hgnc_symbols) #, by=c("rowname" = "Symbol"))
+write.csv(res_wt_t, "./DGE_results/T_vs_WT_HGNC.csv")
+```
+
+
+
+```{r, fig.width=7, fig.height=10}
+EnhancedVolcano(res_wt_t,
+    lab = res_wt_t$hgnc_symbol,
+    title = 'T vs. WT',
+    x = 'log2FoldChange',
+    y = 'pvalue')
+```
+
+
+
+### WT vs. M
+
+```{r}
+res_wt_m = results(dds, contrast = c("condition","M","WT"))
+res_wt_m = lfcShrink(dds, coef ="condition_M_vs_WT", type="apeglm")
+res_wt_m
+write.csv(res_wt_m, "./DGE_results/M_vs_WT.csv")
+summary(res_wt_m)
+#resultsNames(dds)
+plotMA(res_wt_m, ylim=c(-2,2))
+```
+
+
+```{r}
+hgnc_symbols = read.csv("./DGE_results/HGNC_symbols.csv")
+res_wt_m = read.csv("./DGE_results/M_vs_WT.csv")
+res_wt_m = left_join(res_wt_m, hgnc_symbols)
+write.csv(res_wt_m, "./DGE_results/M_vs_WT_HGNC.csv")
+```
+
+
+
+```{r, fig.width=7, fig.height=10}
+EnhancedVolcano(res_wt_m,
+    lab = res_wt_m$hgnc_symbol,
+    title = 'M vs. WT',
+    x = 'log2FoldChange',
+    y = 'pvalue')
+```
+
+
+
+### Plot HeatMap
+
+```{r}
+# Get Top10 Differential Expressed Genes of Each 
+res_wt_dko = read.csv("./DGE_results/dKO_vs_WT_HGNC.csv")
+res_wt_t = read.csv("./DGE_results/T_vs_WT_HGNC.csv")
+res_wt_m = read.csv("./DGE_results/M_vs_WT_HGNC.csv")
+
+# subset on significant results 
+sign_wt_dko = res_wt_dko[res_wt_dko$padj < 0.05,]
+sign_wt_t = res_wt_t[res_wt_t$padj < 0.05,]
+sign_wt_m = res_wt_m[res_wt_m$padj < 0.05,]
+
+top10_wt_dko = head(sign_wt_dko[order(sign_wt_dko$log2FoldChange, decreasing = FALSE), ], 20)
+top10_wt_dko
+top10_wt_t = head(sign_wt_t[order(sign_wt_t$log2FoldChange, decreasing = FALSE), ], 20)
+top10_wt_t
+top10_wt_m = head(sign_wt_m[order(sign_wt_m$log2FoldChange, decreasing = FALSE), ], 20)
+top10_wt_m
+```
+
+```{r}
+top_genes = c(top10_wt_dko$X, top10_wt_t$X, top10_wt_m$X)
+top_genes
+```
+
+
+```{r}
+vsd = vst(dds, blind=FALSE)
+df_vsd = assay(vsd)
+head(df_vsd)
+```
+
+```{r}
+top_vsd = df_vsd[rownames(df_vsd) %in% top_genes,]
+```
+
+```{r, fig.width=4, fig.height=4}
+pheatmap(top_vsd, cluster_rows=TRUE, show_rownames=FALSE,
+         cluster_cols=TRUE, annotation_col=coldata, color = colorRampPalette(c("blue", "white", "red"))(100), )
+```
+
+
+
+
