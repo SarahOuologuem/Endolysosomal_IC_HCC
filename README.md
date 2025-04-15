@@ -1,1 +1,2 @@
-# Endolysomal_IC_HCC
+# Endolysosomal Ion Channels in HCC: Bulk RNA-Seq Analysis
+
